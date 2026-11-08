@@ -1,0 +1,145 @@
+{
+  "rows": 237,
+  "n_clean": 113,
+  "n_dirty": 124,
+  "pct_clean": 47.7,
+  "pct_dirty": 52.3,
+  "exact_dups": 6,
+  "near_dups": 8,
+  "rows_after_dedup": 229,
+  "outlier_photos": 12,
+  "corr_with_label": {
+    "edge_density": 0.584,
+    "green_share": -0.302,
+    "colour_entropy": 0.211,
+    "saturation": -0.209,
+    "grey_share": 0.129,
+    "brightness": 0.028,
+    "contrast": 0.026
+  },
+  "corr_pairs": [
+    [
+      "saturation",
+      "grey_share",
+      -0.795
+    ]
+  ],
+  "majority_acc": 0.5153,
+  "pct_clean_final": 48.5,
+  "pct_dirty_final": 51.5,
+  "train_acc": 0.8525,
+  "test": {
+    "threshold": 0.5,
+    "tn": 17,
+    "fp": 5,
+    "fn": 3,
+    "tp": 21,
+    "accuracy": 0.8261,
+    "precision": 0.8077,
+    "recall": 0.875,
+    "f1": 0.84
+  },
+  "n_train": 183,
+  "n_test": 46,
+  "auc_test": 0.892,
+  "intercept": 0.164,
+  "coef": [
+    [
+      "edge_density",
+      2.047,
+      7.742
+    ],
+    [
+      "green_share",
+      -0.988,
+      0.372
+    ],
+    [
+      "saturation",
+      -0.563,
+      0.57
+    ],
+    [
+      "grey_share",
+      -0.344,
+      0.709
+    ],
+    [
+      "brightness",
+      -0.21,
+      0.811
+    ],
+    [
+      "contrast",
+      -0.167,
+      0.846
+    ],
+    [
+      "colour_entropy",
+      0.137,
+      1.147
+    ]
+  ],
+  "thresholds": [
+    {
+      "threshold": 0.3,
+      "tn": 14,
+      "fp": 8,
+      "fn": 1,
+      "tp": 23,
+      "accuracy": 0.804,
+      "precision": 0.742,
+      "recall": 0.958,
+      "f1": 0.836
+    },
+    {
+      "threshold": 0.5,
+      "tn": 17,
+      "fp": 5,
+      "fn": 3,
+      "tp": 21,
+      "accuracy": 0.826,
+      "precision": 0.808,
+      "recall": 0.875,
+      "f1": 0.84
+    },
+    {
+      "threshold": 0.7,
+      "tn": 20,
+      "fp": 2,
+      "fn": 7,
+      "tp": 17,
+      "accuracy": 0.804,
+      "precision": 0.895,
+      "recall": 0.708,
+      "f1": 0.791
+    }
+  ],
+  "cv": [
+    0.804,
+    0.804,
+    0.87,
+    0.761,
+    0.822
+  ],
+  "cv_mean": 0.8123,
+  "cv_std": 0.0351,
+  "size_only_acc": 0.563,
+  "improve": {
+    "dropped": [
+      "grey_share"
+    ],
+    "after_test": {
+      "threshold": 0.5,
+      "tn": 18.0,
+      "fp": 4.0,
+      "fn": 3.0,
+      "tp": 21.0,
+      "accuracy": 0.8478,
+      "precision": 0.84,
+      "recall": 0.875,
+      "f1": 0.8571
+    },
+    "after_cv_mean": 0.8166
+  }
+}
