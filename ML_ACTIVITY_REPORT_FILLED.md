@@ -25,7 +25,7 @@ It was published by Md Faizal Karim and Krishnav Rajbangshi. The page describes 
 
 It helps identify streets with uncollected garbage from a photo. That matters because rubbish left on roads, sidewalks and canals is a health and flooding risk, and it is also against the law in the Philippines: Republic Act 9003 (Ecological Solid Waste Management Act of 2000) prohibits "littering, throwing, dumping of waste matters in public places, such as roads, sidewalks, canals" (Section 48) and sets a fine of P300 to P1,000 or community service (Section 49). The same law says local governments are responsible for enforcing it and that segregation and collection happen at the barangay level (Section 10). Barangays cannot inspect every street by hand.
 
-This connects to our app Karela. Its civic engine lets residents report uncleaned places with a photo. If a model can make a first guess about whether a photo shows a clean or dirty area, then people do not have to check every photo by hand, and the real attention goes to the photos the model flags. Our model is a very small first test of that idea.
+This connects to our app Karela. Its civic engine lets residents report uncleaned places with a photo. If a model can make a first guess about whether a photo shows a clean or dirty area, then people do not have to check every photo by hand, and the real attention goes to the photos the model flags. Since we need machine learning in our thesis, we used this activity to test the idea on our research, Karela. Our model is a very small first test of that idea.
 
 **1.3 Find at least two outside sources about your topic. What do they say are the main factors that affect street cleanliness (or how cleanliness is judged from images)?**
 
@@ -247,7 +247,7 @@ No. It is useful for learning and for a first experiment, but 82% accuracy on 46
 
 **5.6 If you had more time and data, what would you do next?**
 
-For Karela, we would collect photos from Tuguegarao itself (streets, markets, canals, riverbanks) with permission, and label them with a person using three levels: clean, some litter and heavy litter, with fallen leaves and grass counted as natural and not litter. We would try a pre-trained image model that looks at the actual picture, not only colour and edge numbers, test it on photos it never saw, and keep a person to review the cases it is unsure about. We would also blur faces and plates before storing any photo, and ask users for consent.
+Now that we have tried this first test, our next step in our research (Karela) is to collect photos from Tuguegarao itself (streets, markets, canals, riverbanks) with permission, and label them with a person using three levels: clean, some litter and heavy litter, with fallen leaves and grass counted as natural and not litter. We would try a pre-trained image model that looks at the actual picture, not only colour and edge numbers, test it on photos it never saw, and keep a person to review the cases it is unsure about. We would also blur faces and plates before storing any photo, and ask users for consent.
 
 **5.7 What did each group member learn, and what was the hardest challenge your group faced?**
 
